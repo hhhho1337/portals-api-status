@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12131a">
+  <meta name="description" content="Portals Check API profile connection status">
+  <title>Portals Check — API profile</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; background:#101116; color:#f5f6fa; }
+    * { box-sizing:border-box; }
+    body { min-height:100vh; margin:0; display:grid; place-items:center; padding:24px; background:radial-gradient(ellipse at 50% 38%, #252334 0, #15151d 42%, #101116 76%); }
+    main { width:min(100%, 510px); padding:clamp(28px, 7vw, 48px); border:1px solid #ffffff18; border-radius:24px; background:#191a22eF; box-shadow:0 24px 80px #0008; text-align:center; }
+    .mark { display:grid; place-items:center; width:58px; height:58px; margin:0 auto 24px; border:1px solid #8d7bff55; border-radius:18px; background:linear-gradient(145deg,#6855d833,#a584ff18); color:#c6b8ff; font-size:28px; }
+    .eyebrow { margin:0 0 12px; color:#aaa4c3; font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
+    h1 { margin:0 0 16px; font-size:clamp(32px,8vw,44px); letter-spacing:-.045em; }
+    .message { margin:0; color:#e1e1e9; font-size:17px; line-height:1.65; }
+    .hint { margin:10px 0 28px; color:#999aa7; font-size:14px; line-height:1.6; }
+    a { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; min-height:54px; padding:14px 20px; border-radius:14px; background:#7664f5; color:white; font-weight:700; text-decoration:none; transition:transform .16s ease, background .16s ease; }
+    a:hover { background:#8675ff; transform:translateY(-1px); }
+    a:focus-visible { outline:3px solid #c6b8ff; outline-offset:4px; }
+    footer { margin-top:24px; color:#777986; font-size:12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">✦</div>
+    <p class="eyebrow">Portals Check · API</p>
+    <h1>Oops...</h1>
+    <p class="message">You are not logined for Portals APIs.</p>
+    <p class="hint">Please, connect your profile on API and try again.</p>
+    <a href="https://t.me/CheckGiftsPortalsBot" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">✈</span> Open our Telegram bot</a>
+    <footer>Portals Check</footer>
+  </main>
+</body>
+</html>
